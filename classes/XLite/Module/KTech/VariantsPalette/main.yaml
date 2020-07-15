@@ -1,0 +1,11 @@
+version: 5.4.0.5
+type: common
+authorName: KTech
+moduleName: 'Variants Palette'
+description: 'Displays palette of variants images.'
+minorRequiredCoreVersion: 0
+dependsOn: {  }
+incompatibleWith: {  }
+skins: {  }
+showSettingsForm: false
+canDisable: true

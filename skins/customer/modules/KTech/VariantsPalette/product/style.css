@@ -1,0 +1,33 @@
+.variants-samples-grid {
+  display: flex;
+  flex-flow: row wrap;
+}
+.variants-samples-item {
+  flex: 30%;
+  position: relative;
+  margin: 5px;
+  overflow: visible;
+  cursor: pointer;
+}
+.variants-samples-item a {
+  display: inline-block;
+}
+.image .variants-samples-item img {
+  top: 0;
+  left: 0;
+  width: 100%;
+  max-width: 100%;
+  transition: all .2s linear;
+}
+.image .variants-samples-item:hover img {
+  position: absolute;
+  width: 250px;
+  max-width: unset;
+  z-index: 1;
+  transform: translate3d(-25%,-25%,0);
+}
+.variant-sample {
+  height: 70px;
+  margin: 10px 0;
+  overflow: hidden;
+}
