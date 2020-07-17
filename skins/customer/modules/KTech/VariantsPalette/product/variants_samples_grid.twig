@@ -2,11 +2,13 @@
     <div class="variants-samples-grid-title">Colour selector</div>
     <div class=variants-samples-grid>
     {% for sample in this.getVariantsSamples() %}
+	{% if sample['image'] %}
     	<div class="variants-samples-item">
     	    <a title="{{ sample['title'] }}">
         		<img data-optionids="{{ sample['optionids'] }}" src="{{ sample['image'].getUrl() }}" alt="{{ sample['title'] }}">
-    		</a>
+	    </a>
     	</div>
+	{% endif %}
     {% endfor %}
     </div>
 </div>

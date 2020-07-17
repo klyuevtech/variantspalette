@@ -35,7 +35,7 @@ class VariantsSamplesGrid extends \XLite\View\AView
 
 			$sample['optionids'] = trim($sample['optionids']);
 
-            $sample['title'] = $option->asString();
+			$sample['title'] = $option->asString();
 
 			$samples[] = $sample;
 
